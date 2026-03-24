@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Cinema ticket — for Pricing section -->
+  <!-- Ticket body -->
+  <g transform="rotate(-8, 150, 150)">
+    <!-- Main ticket shape with tear notch -->
+    <path d="M50,100 L50,90 Q50,80 60,80 L200,80 Q200,95 210,100 Q200,105 200,120 L200,220 Q200,230 190,230 L60,230 Q50,230 50,220 Z" fill="none" stroke="#1C1917" stroke-width="2.5"/>
+    <!-- Stub portion -->
+    <path d="M200,80 L240,80 Q250,80 250,90 L250,220 Q250,230 240,230 L200,230 Q200,215 210,210 Q200,205 200,190" fill="none" stroke="#1C1917" stroke-width="2.5"/>
+    <!-- Tear line -->
+    <line x1="200" y1="120" x2="200" y2="190" stroke="#1C1917" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.5"/>
+    <!-- Ticket text -->
+    <text x="125" y="115" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#C22B2B" text-anchor="middle" letter-spacing="3">DUNBAR</text>
+    <text x="125" y="135" font-family="Georgia, serif" font-size="10" fill="#1C1917" text-anchor="middle" letter-spacing="2" opacity="0.5">THEATRE</text>
+    <!-- Divider line -->
+    <line x1="70" y1="145" x2="180" y2="145" stroke="#C22B2B" stroke-width="1" opacity="0.4"/>
+    <!-- Details -->
+    <text x="75" y="168" font-family="monospace" font-size="9" fill="#1C1917" opacity="0.5">ADMIT ONE</text>
+    <text x="75" y="185" font-family="monospace" font-size="11" fill="#1C1917" opacity="0.7">ROW E · SEAT 12</text>
+    <text x="75" y="202" font-family="monospace" font-size="9" fill="#C22B2B" opacity="0.6">7:00 PM</text>
+    <!-- Stub text -->
+    <text x="225" y="150" font-family="Georgia, serif" font-size="10" fill="#C22B2B" text-anchor="middle" transform="rotate(90, 225, 150)" letter-spacing="2">ADMIT 1</text>
+    <!-- Art Deco corner details -->
+    <path d="M60,88 L72,88 L72,92" fill="none" stroke="#C22B2B" stroke-width="1" opacity="0.4"/>
+    <path d="M60,222 L72,222 L72,218" fill="none" stroke="#C22B2B" stroke-width="1" opacity="0.4"/>
+    <path d="M188,88 L176,88 L176,92" fill="none" stroke="#C22B2B" stroke-width="1" opacity="0.4"/>
+    <path d="M188,222 L176,222 L176,218" fill="none" stroke="#C22B2B" stroke-width="1" opacity="0.4"/>
+  </g>
+  <!-- Small decorative stars -->
+  <g fill="#C22B2B" opacity="0.2">
+    <circle cx="40" cy="60" r="2"/>
+    <circle cx="260" cy="250" r="2"/>
+    <circle cx="55" cy="260" r="1.5"/>
+    <circle cx="250" cy="70" r="1.5"/>
+  </g>
+</svg>

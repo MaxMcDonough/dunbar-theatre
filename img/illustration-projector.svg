@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <defs>
+    <linearGradient id="beam" x1="0.5" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffeebb" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffeebb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Light beam -->
+  <polygon points="170,135 300,40 300,230" fill="url(#beam)" opacity="0.5"/>
+  <!-- Projector body -->
+  <rect x="60" y="110" width="120" height="80" rx="8" fill="#1C1917" stroke="#C22B2B" stroke-width="2"/>
+  <!-- Film reels (top) -->
+  <circle cx="95" cy="100" r="30" fill="none" stroke="#1C1917" stroke-width="3"/>
+  <circle cx="95" cy="100" r="20" fill="none" stroke="#C22B2B" stroke-width="1.5"/>
+  <circle cx="95" cy="100" r="5" fill="#C22B2B"/>
+  <!-- Spokes -->
+  <line x1="95" y1="70" x2="95" y2="75" stroke="#1C1917" stroke-width="2"/>
+  <line x1="95" y1="125" x2="95" y2="130" stroke="#1C1917" stroke-width="2"/>
+  <line x1="65" y1="100" x2="70" y2="100" stroke="#1C1917" stroke-width="2"/>
+  <line x1="120" y1="100" x2="125" y2="100" stroke="#1C1917" stroke-width="2"/>
+  <line x1="74" y1="79" x2="77" y2="82" stroke="#1C1917" stroke-width="2"/>
+  <line x1="113" y1="118" x2="116" y2="121" stroke="#1C1917" stroke-width="2"/>
+  <line x1="74" y1="121" x2="77" y2="118" stroke="#1C1917" stroke-width="2"/>
+  <line x1="113" y1="82" x2="116" y2="79" stroke="#1C1917" stroke-width="2"/>
+  <!-- Second reel -->
+  <circle cx="155" cy="100" r="22" fill="none" stroke="#1C1917" stroke-width="2.5"/>
+  <circle cx="155" cy="100" r="14" fill="none" stroke="#C22B2B" stroke-width="1"/>
+  <circle cx="155" cy="100" r="4" fill="#C22B2B"/>
+  <!-- Lens -->
+  <rect x="175" y="130" width="30" height="40" rx="5" fill="#1C1917" stroke="#C22B2B" stroke-width="1.5"/>
+  <circle cx="205" cy="150" r="12" fill="#2a2420" stroke="#C22B2B" stroke-width="1.5"/>
+  <circle cx="205" cy="150" r="6" fill="#ffeebb" opacity="0.6"/>
+  <!-- Base/stand -->
+  <rect x="80" y="190" width="80" height="8" rx="3" fill="#1C1917"/>
+  <rect x="100" y="198" width="40" height="25" rx="3" fill="#1C1917" stroke="#C22B2B" stroke-width="1"/>
+  <!-- Film strip decoration -->
+  <rect x="45" y="240" width="210" height="20" rx="3" fill="none" stroke="#C22B2B" stroke-width="1.5" opacity="0.5"/>
+  <rect x="52" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="68" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="84" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="100" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="116" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="132" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="148" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="164" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="180" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="196" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="212" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+  <rect x="228" y="243" width="10" height="14" rx="1" fill="#C22B2B" opacity="0.3"/>
+</svg>

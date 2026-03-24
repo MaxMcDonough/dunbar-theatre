@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Art Deco facade detail — for the History section -->
+  <!-- Building outline -->
+  <rect x="60" y="80" width="180" height="200" fill="none" stroke="#C22B2B" stroke-width="2" rx="2"/>
+  <!-- Blade sign tower -->
+  <rect x="125" y="20" width="50" height="70" fill="none" stroke="#C22B2B" stroke-width="2" rx="2"/>
+  <!-- Crown fins -->
+  <rect x="120" y="12" width="60" height="10" fill="none" stroke="#C22B2B" stroke-width="1.5" rx="4"/>
+  <rect x="128" y="4" width="44" height="10" fill="none" stroke="#C22B2B" stroke-width="1.5" rx="3"/>
+  <!-- Speed lines left -->
+  <line x1="95" y1="35" x2="122" y2="35" stroke="#C22B2B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="100" y1="42" x2="122" y2="42" stroke="#C22B2B" stroke-width="1.5" opacity="0.5"/>
+  <line x1="105" y1="49" x2="122" y2="49" stroke="#C22B2B" stroke-width="1.5" opacity="0.4"/>
+  <!-- Speed lines right -->
+  <line x1="178" y1="35" x2="205" y2="35" stroke="#C22B2B" stroke-width="1.5" opacity="0.6"/>
+  <line x1="178" y1="42" x2="200" y2="42" stroke="#C22B2B" stroke-width="1.5" opacity="0.5"/>
+  <line x1="178" y1="49" x2="195" y2="49" stroke="#C22B2B" stroke-width="1.5" opacity="0.4"/>
+  <!-- "D" letter in sign -->
+  <text x="150" y="72" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#C22B2B" text-anchor="middle" opacity="0.7">D</text>
+  <!-- Marquee -->
+  <path d="M55,200 L245,200 L250,210 L50,210 Z" fill="none" stroke="#C22B2B" stroke-width="1.5"/>
+  <!-- Marquee dots -->
+  <g fill="#C22B2B" opacity="0.4">
+    <circle cx="70" cy="205" r="2"/>
+    <circle cx="85" cy="205" r="2"/>
+    <circle cx="100" cy="205" r="2"/>
+    <circle cx="115" cy="205" r="2"/>
+    <circle cx="130" cy="205" r="2"/>
+    <circle cx="145" cy="205" r="2"/>
+    <circle cx="160" cy="205" r="2"/>
+    <circle cx="175" cy="205" r="2"/>
+    <circle cx="190" cy="205" r="2"/>
+    <circle cx="205" cy="205" r="2"/>
+    <circle cx="220" cy="205" r="2"/>
+    <circle cx="235" cy="205" r="2"/>
+  </g>
+  <!-- Doors -->
+  <rect x="100" y="220" width="35" height="55" fill="none" stroke="#C22B2B" stroke-width="1.5" rx="2"/>
+  <rect x="165" y="220" width="35" height="55" fill="none" stroke="#C22B2B" stroke-width="1.5" rx="2"/>
+  <!-- Door handles -->
+  <circle cx="132" cy="250" r="2" fill="#C22B2B"/>
+  <circle cx="168" cy="250" r="2" fill="#C22B2B"/>
+  <!-- Pilasters -->
+  <rect x="75" y="100" width="6" height="95" fill="none" stroke="#C22B2B" stroke-width="1" opacity="0.5"/>
+  <rect x="219" y="100" width="6" height="95" fill="none" stroke="#C22B2B" stroke-width="1" opacity="0.5"/>
+  <!-- Windows -->
+  <rect x="90" y="110" width="30" height="40" fill="none" stroke="#C22B2B" stroke-width="1" rx="2" opacity="0.4"/>
+  <rect x="180" y="110" width="30" height="40" fill="none" stroke="#C22B2B" stroke-width="1" rx="2" opacity="0.4"/>
+  <!-- Art Deco sunburst at top of facade -->
+  <g stroke="#C22B2B" stroke-width="1" opacity="0.3">
+    <line x1="150" y1="90" x2="150" y2="82"/>
+    <line x1="140" y1="92" x2="135" y2="84"/>
+    <line x1="160" y1="92" x2="165" y2="84"/>
+    <line x1="132" y1="96" x2="124" y2="90"/>
+    <line x1="168" y1="96" x2="176" y2="90"/>
+  </g>
+  <!-- Year text -->
+  <text x="150" y="175" font-family="Georgia, serif" font-size="14" fill="#C22B2B" text-anchor="middle" opacity="0.5" letter-spacing="4">1935</text>
+</svg>
